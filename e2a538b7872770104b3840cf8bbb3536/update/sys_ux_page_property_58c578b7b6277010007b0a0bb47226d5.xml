@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="Medical Appointment">14c578b7872770104b3840cf8bbb35ad</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-07 18:43:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>58c578b7b6277010007b0a0bb47226d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_page_property_58c578b7b6277010007b0a0bb47226d5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-07 18:43:47</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_549153_medical_0.14c578b7872770104b3840cf8bbb35ad.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=58c578b7b6277010007b0a0bb47226d5"/>
+</record_update>

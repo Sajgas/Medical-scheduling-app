@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-07 18:43:46</sys_created_on>
+        <sys_id>d4c578b7fc27701082f8c377e0d948d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.setValue</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_scope_privilege_d4c578b7fc27701082f8c377e0d948d6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-07 18:43:46</sys_updated_on>
+        <target_name>GlideRecord.setValue</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

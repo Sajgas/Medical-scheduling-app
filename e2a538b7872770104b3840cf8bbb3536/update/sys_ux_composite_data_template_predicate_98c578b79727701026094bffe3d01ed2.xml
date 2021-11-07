@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,sysapproval.short_description,sysapproval.number,sys_created_on</field_list>
+        <name>My Tasks</name>
+        <order/>
+        <predicate_bundle display_value="My Tasks - Task bundle">9cc578b745277010aa046073c1a214d1</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-07 18:43:47</sys_created_on>
+        <sys_id>98c578b79727701026094bffe3d01ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Tasks</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_98c578b79727701026094bffe3d01ed2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-07 18:43:47</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <ux_template display_value="Custom Portal Landing - My Tasks template">54c578b7af27701007c1ad15fcb53ad2</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

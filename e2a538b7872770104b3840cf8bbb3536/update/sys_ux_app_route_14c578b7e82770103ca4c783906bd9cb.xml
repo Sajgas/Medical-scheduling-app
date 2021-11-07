@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Medical Appointment Config">18c578b7872770104b3840cf8bbb35ad</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Login</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>login</route_type>
+        <screen_type display_value="Login">d0c578b766277010998deed142e607cb</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-07 18:43:46</sys_created_on>
+        <sys_id>14c578b7e82770103ca4c783906bd9cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_app_route_14c578b7e82770103ca4c783906bd9cb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-07 18:43:46</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=14c578b7e82770103ca4c783906bd9cb"/>
+</record_update>
