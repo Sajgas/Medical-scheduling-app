@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Doctor\'s locations</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Doctor\'s locations</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">246ed24ba9223010c0a065f439e661f8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-09 20:30:16</sys_created_on>
+        <sys_id>d051eb18877330104b3840cf8bbb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor\'s locations</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_wizard_answer_d051eb18877330104b3840cf8bbb3568</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-09 20:30:16</sys_updated_on>
+        <table/>
+        <target_url>x_549153_medical_0_doctor_s_locations.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</application>
+        <file_path/>
+        <instance_id>a03ce176db3dac10b847ac44d49619ca</instance_id>
+        <instance_name>dev105427</instance_name>
+        <name>sys_wizard_answer_d051eb18877330104b3840cf8bbb3568</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Doctor\'s locations</answer><button_label/><dependent_value/><element/><name>Doctor\'s locations</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">246ed24ba9223010c0a065f439e661f8</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-09 20:30:16</sys_created_on><sys_id>d051eb18877330104b3840cf8bbb3568</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctor\'s locations</sys_name><sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package><sys_policy/><sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope><sys_update_name>sys_wizard_answer_d051eb18877330104b3840cf8bbb3568</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-09 20:30:16</sys_updated_on><table/><target_url>x_549153_medical_0_doctor_s_locations.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1538973825</payload_hash>
+        <record_name>Doctor\'s locations</record_name>
+        <reverted_from/>
+        <source>f32523d3872330104b3840cf8bbb351a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-11-06 18:13:15</sys_created_on>
+        <sys_id>6f18ef5c877330104b3840cf8bbb35cf</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17cf67462780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>2f18ef5cb57330108aca249bf8592dcf</update_guid>
+        <update_guid_history>2f18ef5cb57330108aca249bf8592dcf:-1538973825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-09 20:59:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>c3b873fbcae14e39bdb32924feb3b911</sys_id>
+        <sys_metadata>d051eb18877330104b3840cf8bbb3568</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor\'s locations</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_parent display_value="Task">246ed24ba9223010c0a065f439e661f8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_scope_delete display_value="">370c1b975c3045a2a012ac57e0e3d044</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_d051eb18877330104b3840cf8bbb3568</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_d051eb18877330104b3840cf8bbb3568">6f18ef5c877330104b3840cf8bbb35cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-09 20:59:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

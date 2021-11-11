@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Doctors" max_length="40" name="x_549153_medical_0_doctors" sizeclass="2" type="collection">
+        <element label="About me" max_length="140" name="about_me" type="string"/>
+        <element label="Address" max_length="80" name="address" type="string"/>
+        <element choice="3" label="City" max_length="40" name="city" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Kraków" sequence="10" value="krakow"/>
+                <element inactive_on_update="false" label="Warszawa" sequence="20" value="warszawa"/>
+                <element inactive_on_update="false" label="Łódź" sequence="30" value="lodz"/>
+                <element inactive_on_update="false" label="Wrocław" sequence="40" value="wroclaw"/>
+                <element inactive_on_update="false" label="Poznań" sequence="50" value="poznan"/>
+                <element inactive_on_update="false" label="Gdańsk" sequence="60" value="gdansk"/>
+                <element inactive_on_update="false" label="Bydgoszcz" sequence="70" value="bydgoszcz"/>
+                <element inactive_on_update="false" label="Lublin" sequence="80" value="lublin"/>
+                <element inactive_on_update="false" label="Białystok" sequence="90" value="bialystok"/>
+                <element inactive_on_update="false" label="Gorzów Wielkopolski" sequence="100" value="gorz_w_wielkopolski"/>
+                <element inactive_on_update="false" label="Katowice" sequence="110" value="katowice"/>
+                <element inactive_on_update="false" label="Kielce" sequence="120" value="kielce"/>
+                <element inactive_on_update="false" label="Olsztyn" sequence="130" value="olsztyn"/>
+                <element inactive_on_update="false" label="Opole" sequence="140" value="opole"/>
+                <element inactive_on_update="false" label="Rzeszów" sequence="150" value="rzesz_w"/>
+                <element inactive_on_update="false" label="Szczecin" sequence="160" value="szczecin"/>
+                <element inactive_on_update="false" label="Toruń" sequence="170" value="toru"/>
+                <element inactive_on_update="false" label="Zielona Góra" sequence="180" value="zielona_g_ra"/>
+            </choice>
+        </element>
+        <element label="Education" max_length="80" name="education" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Languages" max_length="60" name="languages" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element choice="3" label="Specialization" max_length="40" name="specialization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cardiologist" sequence="10" value="cardiologist"/>
+                <element inactive_on_update="false" label="Dentist" sequence="20" value="dentist"/>
+                <element inactive_on_update="false" label="Dermatologist" sequence="30" value="dermatologist"/>
+                <element inactive_on_update="false" label="Pediatrician" sequence="40" value="pediatrician"/>
+                <element inactive_on_update="false" label="Allergist" sequence="50" value="allergist"/>
+                <element inactive_on_update="false" label="Gynecologist" sequence="60" value="gynecologist"/>
+                <element inactive_on_update="false" label="Endocrinologist" sequence="70" value="endocrinologist"/>
+                <element inactive_on_update="false" label="Urologist" sequence="80" value="urologist"/>
+                <element inactive_on_update="false" label="Psychiatrist" sequence="90" value="psychiatrist"/>
+                <element inactive_on_update="false" label="Anesthesiologist" sequence="100" value="anesthesiologist"/>
+            </choice>
+        </element>
+        <element label="Type of appointement" max_length="60" name="type_of_appointement" type="string"/>
+    </element>
+</database>

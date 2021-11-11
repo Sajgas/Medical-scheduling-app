@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="specialization" table="x_549153_medical_0_doctors" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>specialization</element>
+            <name>x_549153_medical_0_doctors</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-09 20:04:09</sys_created_on>
+            <sys_id>255b5314877330104b3840cf8bbb3508</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>specialization</sys_name>
+            <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+            <sys_update_name>sys_choice_x_549153_medical_0_doctors_specialization</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-09 20:04:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cardiologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-09 20:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a55b5314877330104b3840cf8bbb3507</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-09 20:04:09</sys_updated_on>
+            <value>cardiologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dentist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-09 20:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>315b5314877330104b3840cf8bbb351a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-09 20:04:09</sys_updated_on>
+            <value>dentist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dermatologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-09 20:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>395b5314877330104b3840cf8bbb3524</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-09 20:04:09</sys_updated_on>
+            <value>dermatologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pediatrician</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d7c0105877730104b3840cf8bbb3506</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:22</sys_updated_on>
+            <value>pediatrician</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Allergist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d7c0105877730104b3840cf8bbb3521</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:22</sys_updated_on>
+            <value>allergist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gynecologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a57c0105877730104b3840cf8bbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:22</sys_updated_on>
+            <value>gynecologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Endocrinologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>617c0105877730104b3840cf8bbb3527</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:22</sys_updated_on>
+            <value>endocrinologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Urologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b97c0105877730104b3840cf8bbb3536</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:23</sys_updated_on>
+            <value>urologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychiatrist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f17c0105877730104b3840cf8bbb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:23</sys_updated_on>
+            <value>psychiatrist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specialization</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anesthesiologist</label>
+            <language>en</language>
+            <name>x_549153_medical_0_doctors</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 17:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd7c0105877730104b3840cf8bbb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 17:35:23</sys_updated_on>
+            <value>anesthesiologist</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

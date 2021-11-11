@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>sys_user.location</ais_facet_name>
+        <label>Location</label>
+        <name>Location</name>
+        <option_limit>10</option_limit>
+        <order>200</order>
+        <search_context_config display_value="test - Search Configuration">bb63fc0d13f330108bcbb4f20c6bfe93</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-30 23:55:43</sys_created_on>
+        <sys_id>3f63fc0d32f33010d5aa0d3d6ec22e93</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>sys_user.location</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_search_facet_3f63fc0d32f33010d5aa0d3d6ec22e93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-02 23:28:46</sys_updated_on>
+    </sys_search_facet>
+</record_update>

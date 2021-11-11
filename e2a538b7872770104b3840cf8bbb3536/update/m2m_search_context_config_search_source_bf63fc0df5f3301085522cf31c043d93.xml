@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <search_context_config display_value="test - Search Configuration">bb63fc0d13f330108bcbb4f20c6bfe93</search_context_config>
+        <source display_value="People">a90c3bf387322300b081717936cb0bca</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-10 20:46:56</sys_created_on>
+        <sys_id>bf63fc0df5f3301085522cf31c043d93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_bf63fc0df5f3301085522cf31c043d93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-10 20:46:56</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

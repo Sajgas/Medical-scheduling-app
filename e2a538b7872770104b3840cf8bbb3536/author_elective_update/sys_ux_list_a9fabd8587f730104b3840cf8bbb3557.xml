@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="DELETE">
+        <active>true</active>
+        <category display_value="Specialization">a502dfd8873330104b3840cf8bbb359f</category>
+        <columns>number,name,specialization,price,address</columns>
+        <condition table="x_549153_medical_0_doctors">specialization=gynecologist^EQ<item display_value="Gynecologist" endquery="false" field="specialization" goto="false" newquery="false" operator="=" or="false" value="gynecologist"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Select doctor's location or specialization">cdd0dfd8873330104b3840cf8bbb35cb</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>600</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 20:58:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9fabd8587f730104b3840cf8bbb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gynecologist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_list_a9fabd8587f730104b3840cf8bbb3557</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-11 20:58:32</sys_updated_on>
+        <table>x_549153_medical_0_doctors</table>
+        <title>Gynecologist</title>
+    </sys_ux_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</application>
+        <file_path/>
+        <instance_id>a03ce176db3dac10b847ac44d49619ca</instance_id>
+        <instance_name>dev105427</instance_name>
+        <name>sys_ux_list_a9fabd8587f730104b3840cf8bbb3557</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list"><sys_ux_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="Specialization">a502dfd8873330104b3840cf8bbb359f</category><columns>number,name,specialization,price,address</columns><condition table="x_549153_medical_0_doctors">specialization=gynecologist^EQ<item display_value="Gynecologist" endquery="false" field="specialization" goto="false" newquery="false" operator="=" or="false" value="gynecologist"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><configuration display_value="Select doctor's location or specialization">cdd0dfd8873330104b3840cf8bbb35cb</configuration><group_by_column/><groups/><list_attributes/><order>600</order><roles/><sys_class_name>sys_ux_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-11 20:58:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a9fabd8587f730104b3840cf8bbb3557</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gynecologist</sys_name><sys_overrides/><sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package><sys_policy/><sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope><sys_update_name>sys_ux_list_a9fabd8587f730104b3840cf8bbb3557</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-11 20:58:32</sys_updated_on><table>x_549153_medical_0_doctors</table><title>Gynecologist</title></sys_ux_list></record_update>]]></payload>
+        <payload_hash>-1160291745</payload_hash>
+        <record_name>Gynecologist</record_name>
+        <reverted_from/>
+        <source>dc184937876770104b3840cf8bbb3595</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 20:58:32</sys_created_on>
+        <sys_id>e5fabd8587f730104b3840cf8bbb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d10cb82380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-11 20:58:32</sys_updated_on>
+        <type>UX List</type>
+        <update_guid>21fabd85dcf730108b65433908be5b59</update_guid>
+        <update_guid_history>21fabd85dcf730108b65433908be5b59:-1160291745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 21:12:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list">sys_ux_list</sys_db_object>
+        <sys_id>044ce0c0c0e54ff08093db425e1be900</sys_id>
+        <sys_metadata>a9fabd8587f730104b3840cf8bbb3557</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gynecologist</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_scope_delete display_value="">370c1b975c3045a2a012ac57e0e3d044</sys_scope_delete>
+        <sys_update_name>sys_ux_list_a9fabd8587f730104b3840cf8bbb3557</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_a9fabd8587f730104b3840cf8bbb3557">e5fabd8587f730104b3840cf8bbb3559</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-11 21:12:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
