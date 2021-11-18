@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Medical articles">023303e2877330104b3840cf8bbb3572</macroponent>
+        <name>Handle Star Rating</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    const {
+        context,
+        emit,
+        data,
+    } = api;
+
+    const insertRecord = function(table, fields) {
+        data.create_record_1.execute({
+            table,
+            templateFields: fields,
+            useSetDisplayValue: ''
+        });
+    };
+
+    var articleSysId = context.props.sysId;
+    var templateFields = "article=" + articleSysId + "^";
+
+    if (event.elementId == "star_rating_1") {
+        templateFields += "rating=" + event.payload.rating;
+        insertRecord('kb_feedback', templateFields);
+    }
+
+
+    if (event.elementId == "create_record_1") {
+        var items = [];
+        var requestFailed = false;
+        if (event.name == "DATA_OP_SUCCEEDED") {
+            var output = event.payload.data.output.data.GlideRecord_Mutation.insert_kb_feedback;
+            if (output == null) {
+                requestFailed = true;
+            } else {
+                items.push({
+                    id: "ratingArticleSuccess",
+                    status: "info",
+                    icon: "info-circle-outline",
+                    content: "Feedback submitted",
+                    action: {
+                        type: "dismiss"
+                    }
+                });
+            }
+        }
+
+        if (event.name == "DATA_OP_FAILED" || requestFailed) {
+            items.push({
+                id: "flagArticleFailure",
+                status: "critical",
+                icon: "info-circle-outline",
+                content: "Technical issue submitting a feedback. Try again later",
+                action: {
+                    type: "dismiss"
+                }
+            });
+        }
+
+        if (items.length > 0) {
+            emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items
+            });
+        }
+    }
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 18:32:38</sys_created_on>
+        <sys_id>958903a6877330104b3840cf8bbb3574</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Handle Star Rating</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_client_script_958903a6877330104b3840cf8bbb3574</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 19:01:47</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

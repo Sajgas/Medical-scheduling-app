@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Medical Appointment Config">18c578b7872770104b3840cf8bbb35ad</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Knowledge Article">adc2472a873330104b3840cf8bbb3555</macroponent>
+        <macroponent_config/>
+        <name>Knowledge Article</name>
+        <order>100</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Landing Page">1cc578b7162770104a750caedbcfdfcb</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 18:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65c2472a873330104b3840cf8bbb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Article</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_screen_65c2472a873330104b3840cf8bbb3559</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 18:03:10</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=65c2472a873330104b3840cf8bbb3559"/>
+</record_update>

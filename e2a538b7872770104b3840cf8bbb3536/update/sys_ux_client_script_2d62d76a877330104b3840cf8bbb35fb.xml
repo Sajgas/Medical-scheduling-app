@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Medical articles">023303e2877330104b3840cf8bbb3572</macroponent>
+        <name>Set Rating state</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    const {
+        context,
+        state,
+        setState
+    } = api;
+
+    const {
+        snHttp
+    } = helpers;
+
+    const curentArticle = context.props.sysId;
+
+    //getting feedback from article
+
+    snHttp('/api/now/table/kb_feedback?sysparm_limit=1&sysparm_query=article=' + curentArticle, {
+        method: "GET",
+        batch: false,
+    }).then(response => {
+        if (response.response.result.length > 0) {
+            var rating = response.response.result[0].rating;
+
+            //updating state
+            setState('rating', rating);
+        }
+    }).catch(error => {
+        console.log('Error' + error);
+    });
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 19:11:26</sys_created_on>
+        <sys_id>2d62d76a877330104b3840cf8bbb35fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Rating state</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_ux_client_script_2d62d76a877330104b3840cf8bbb35fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 19:17:32</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>
