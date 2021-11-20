@@ -4,65 +4,39 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "container_1",
-  "elementLabel" : "Container 1",
+  "elementId" : "container_9",
+  "elementLabel" : "Container 9",
   "propertyValues" : { },
   "eventMappings" : [ ],
-  "slot" : "Header",
+  "slot" : "Main",
   "definition" : {
     "id" : "d356d14b6e293a3020a244b63d278d8f",
     "type" : "MACROPONENT"
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "record_header_1",
-      "elementLabel" : "Record Header 1",
+      "elementId" : "stylized_text_22",
+      "elementLabel" : "Stylized text 22",
       "propertyValues" : {
-        "table" : {
-          "type" : "CONTEXT_BINDING",
-          "binding" : {
-            "address" : [ "table" ],
-            "category" : "props"
-          }
-        },
-        "sysId" : {
-          "type" : "CONTEXT_BINDING",
-          "binding" : {
-            "address" : [ "sysId" ],
-            "category" : "props"
-          }
-        },
-        "workspaceConfigId" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "primaryValue" : {
+        "text" : {
           "type" : "DATA_OUTPUT_BINDING",
           "binding" : {
-            "address" : [ "glide_form_1", "nowRecordCommonHeader", "primaryValue" ]
+            "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "name", "displayValue" ]
           }
         },
-        "subHeadingValue" : {
+        "tag" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "h2"
         },
-        "secondaryItems" : {
+        "css" : {
           "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "headerImageItem" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "hideTagsValue" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : "* { }"
         }
       },
       "eventMappings" : [ ],
       "slot" : "Main",
       "definition" : {
-        "id" : "4d537db98a05adaf55f9e219c50d1358",
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
         "type" : "MACROPONENT"
       },
       "overrides" : null,
@@ -71,12 +45,15 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "font-family" : "sans-serif",
+        "color" : "black"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center","padding":"2rem","height":"5vh"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","background-image":"url(https://image.freepik.com/free-vector/clean-medical-patterned-background-vector_53876-140867.jpg)","background-repeat":"no-repeat","background-size":"cover"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -105,165 +82,6 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "form_1",
-      "elementLabel" : "Form 1",
-      "propertyValues" : {
-        "sections" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "sections" ]
-          }
-        },
-        "fields" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "fields" ]
-          }
-        },
-        "table" : {
-          "type" : "CONTEXT_BINDING",
-          "binding" : {
-            "address" : [ "table" ],
-            "category" : "props"
-          }
-        },
-        "sysId" : {
-          "type" : "CONTEXT_BINDING",
-          "binding" : {
-            "address" : [ "sysId" ],
-            "category" : "props"
-          }
-        },
-        "view" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "detailsProps", "view" ]
-          }
-        },
-        "forcedViewName" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "detailsProps", "view" ]
-          }
-        },
-        "isSectionMenuHidden" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "disableCollapse" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "config" : {
-          "type" : "JSON_LITERAL",
-          "value" : "{ \"showActivityStream\": false, }"
-        },
-        "serializedChanges" : {
-          "type" : "JSON_LITERAL",
-          "value" : [ ]
-        },
-        "encodedRecord" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "scrollableHost" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "inUiBuilder" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "userSession" : {
-          "type" : "CONTEXT_BINDING",
-          "binding" : {
-            "address" : [ "user" ],
-            "category" : "session"
-          }
-        },
-        "formMessages" : {
-          "type" : "JSON_LITERAL",
-          "value" : [ ]
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "cdf8d604a3fda59e69ccd6dd407263d6",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "stylized_text_1",
-      "elementLabel" : "Stylized text 1",
-      "propertyValues" : {
-        "text" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "name", "displayValue" ]
-          }
-        },
-        "tag" : {
-          "type" : "JSON_LITERAL",
-          "value" : "h1"
-        },
-        "css" : {
-          "type" : "JSON_LITERAL",
-          "value" : "* { }"
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "stylized_text_2",
-      "elementLabel" : "Stylized text 2",
-      "propertyValues" : {
-        "text" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "specialization", "displayValue" ]
-          }
-        },
-        "tag" : {
-          "type" : "JSON_LITERAL",
-          "value" : "h1"
-        },
-        "css" : {
-          "type" : "JSON_LITERAL",
-          "value" : "* { }"
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
       "elementId" : "avatar_1",
       "elementLabel" : "Avatar 1",
       "propertyValues" : {
@@ -310,19 +128,919 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "padding-bottom" : "1rem"
+      }
+    }, {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Sidebar 1",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "stylized_text_4",
+          "elementLabel" : "Stylized text 4",
+          "propertyValues" : {
+            "text" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "about_me", "displayValue" ]
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "p"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "font-family" : "sans-serif",
+            "font-size" : "1rem",
+            "text-align" : "center"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","justify-content":"center","align-items":"center"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    }, {
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "stylized_text_5",
+          "elementLabel" : "Stylized text 5",
+          "propertyValues" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Specialization",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "p"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 1",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "font-family" : "sans-serif",
+            "font-size" : "1.2rem",
+            "font-weight" : "bold"
+          }
+        }, {
+          "elementId" : "stylized_text_6",
+          "elementLabel" : "Stylized text 6",
+          "propertyValues" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "City",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "p"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 2",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "font-family" : "sans-serif",
+            "font-size" : "1.2rem",
+            "font-weight" : "bold"
+          }
+        }, {
+          "elementId" : "stylized_text_7",
+          "elementLabel" : "Stylized text 7",
+          "propertyValues" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Address",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "p"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 3",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "font-family" : "sans-serif",
+            "font-size" : "1.2rem",
+            "font-weight" : "bold"
+          }
+        }, {
+          "elementId" : "stylized_text_8",
+          "elementLabel" : "Stylized text 8",
+          "propertyValues" : {
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Price",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "p"
+            },
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 4",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "font-family" : "sans-serif",
+            "font-size" : "1.2rem",
+            "font-weight" : "bold"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","justify-content":"center","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+            "type" : "flex"
+          },
+          "version" : "2.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%",
+        "padding" : "1rem 1rem 0rem 1rem",
+        "justify-content" : "center",
+        "align-items" : "center"
+      }
+    }, {
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "container_6",
+          "elementLabel" : "Container 6",
+          "propertyValues" : { },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "stylized_text_9",
+              "elementLabel" : "Stylized text 9",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "specialization", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 1",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_10",
+              "elementLabel" : "Stylized text 10",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "city", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 2",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_11",
+              "elementLabel" : "Stylized text 11",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "address", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 3",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_12",
+              "elementLabel" : "Stylized text 12",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "price", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 4",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+                "root" : null,
+                "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                "styles" : null,
+                "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+                "type" : "flex"
+              },
+              "version" : "2.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "width" : "100%",
+            "padding" : "0rem 1rem 1rem 1rem"
+          }
+        }, {
+          "elementId" : "container_7",
+          "elementLabel" : "Container 7",
+          "propertyValues" : { },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "stylized_text_13",
+              "elementLabel" : "Stylized text 13",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Ratings",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 1",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "1.2rem",
+                "font-weight" : "bold"
+              }
+            }, {
+              "elementId" : "stylized_text_14",
+              "elementLabel" : "Stylized text 14",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Education",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 2",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "1.2rem",
+                "font-weight" : "bold"
+              }
+            }, {
+              "elementId" : "stylized_text_15",
+              "elementLabel" : "Stylized text 15",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Languages",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 3",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "1.2rem",
+                "font-weight" : "bold"
+              }
+            }, {
+              "elementId" : "stylized_text_20",
+              "elementLabel" : "Stylized text 20",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Type of appointment",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 4",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "1.2rem",
+                "font-weight" : "bold"
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+                "root" : null,
+                "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                "styles" : null,
+                "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+                "type" : "flex"
+              },
+              "version" : "2.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "width" : "100%",
+            "padding" : "1rem 1rem 0rem 1rem"
+          }
+        }, {
+          "elementId" : "container_8",
+          "elementLabel" : "Container 8",
+          "propertyValues" : { },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "stylized_text_17",
+              "elementLabel" : "Stylized text 17",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Let's workflow it.",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 1",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_18",
+              "elementLabel" : "Stylized text 18",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "education", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 2",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_19",
+              "elementLabel" : "Stylized text 19",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "languages", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 3",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            }, {
+              "elementId" : "stylized_text_21",
+              "elementLabel" : "Stylized text 21",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "glide_form_1", "nowRecordFormBlob", "fields", "type_of_appointement", "displayValue" ]
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "p"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : "Column 4",
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "font-family" : "sans-serif",
+                "font-size" : "0.9rem"
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+                "root" : null,
+                "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                "styles" : null,
+                "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+                "type" : "flex"
+              },
+              "version" : "2.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "width" : "100%",
+            "padding" : "0rem 1rem 1rem 1rem"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center","padding":"1rem 1rem 1rem 2.5rem"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
         "templateId" : "1199b58153071010e6bcddeeff7b1286",
         "type" : "flex"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_10",
+  "elementLabel" : "Container 10",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "button_1",
+      "elementLabel" : "Button 1",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "primary"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Submit",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Enter a label",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
       },
-      "version" : "2.0.0"
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding-top":"1rem"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      }
     }
   },
   "isHidden" : {
@@ -462,11 +1180,11 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Header","rules":{"flex-basis":"50px","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center"}},{"slotName":"Main","rules":{"flex-basis":"400px","flex":"1"},"styles":{"display":"flex","flex-direction":"column","height":"95vh"}}],
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
     "root" : null,
-    "rules" : {"flex-flow":"column nowrap","min-height":"400px","height":"100%"},
+    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
     "styles" : null,
-    "templateId" : "3b7ced8953c31010e6bcddeeff7b12ef",
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
     "type" : "flex"
   }
 }</layout>
@@ -495,7 +1213,40 @@
   "readOnly" : true,
   "selectable" : false
 } ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Address",
+  "comment" : ""
+}, {
+  "message" : "City",
+  "comment" : ""
+}, {
+  "message" : "Education",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Languages",
+  "comment" : ""
+}, {
+  "message" : "Let's workflow it.",
+  "comment" : ""
+}, {
+  "message" : "Price",
+  "comment" : ""
+}, {
+  "message" : "Ratings",
+  "comment" : ""
+}, {
+  "message" : "Specialization",
+  "comment" : ""
+}, {
+  "message" : "Submit",
+  "comment" : ""
+}, {
+  "message" : "Type of appointment",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -516,13 +1267,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-11 12:45:02</sys_created_on>
         <sys_id>a00a8c0d877330104b3840cf8bbb35f2</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Doctor</sys_name>
         <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name>sys_ux_macroponent_a00a8c0d877330104b3840cf8bbb35f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-11 16:48:55</sys_updated_on>
+        <sys_updated_on>2021-11-20 19:43:02</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="all_tables.text_index_translations=true,attachment_index=true,document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,text_index_attachment_displayed=true,text_index_enable_idf=true,text_index_filter_junk=false,use_document_viewer=true" audit="true" label="Knowledge" max_length="40" name="kb_knowledge" sizeclass="33" text_index="true" type="collection">
+    <element attributes="all_tables.text_index_translations=true,attachment_index=true,document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,text_index_attachment_displayed=true,text_index_enable_idf=true,text_index_filter_junk=false,use_document_viewer=true" audit="true" label="Knowledge" max_length="40" name="kb_knowledge" sizeclass="37" text_index="true" type="collection">
         <element choice="1" label="Topic" max_length="40" name="x_549153_medical_0_topic" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Circulatory issues" value="circulatory_issues"/>

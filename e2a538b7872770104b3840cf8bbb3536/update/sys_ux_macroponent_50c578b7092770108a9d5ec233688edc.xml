@@ -1177,7 +1177,8 @@
               "styles" : {
                 "color" : "#00BFA6",
                 "text-shadow" : "-1px -1px 0 #fff,\n     0   -1px 0 #fff,\n     1px -1px 0 #fff,\n     1px  0   0 #fff,\n     1px  1px 0 #fff,\n     0    1px 0 #fff,\n    -1px  1px 0 #fff,\n    -1px  0   0 #fff",
-                "font-family" : "sans-serif"
+                "font-family" : "sans-serif",
+                "padding-bottom" : "2rem"
               }
             }, {
               "elementId" : "container_31",
@@ -1195,32 +1196,35 @@
                   "elementLabel" : "Data visualization 1",
                   "propertyValues" : {
                     "label" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Avaliable specializations",
+                        "comment" : ""
+                      }
                     },
                     "chartType" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "donut"
                     },
                     "dataConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "[{\"__viz_config_id\":\"dGFibGV4XzU0OTE1M19tZWRpY2FsXzBfZG9jdG9yczE2Mzc0Mjc3MTIxMjA=\",\"__viz_config_label\":\"Doctors\",\"aggregate_function\":\"COUNT\",\"group_by\":\"specialization\",\"number_of_groups\":10,\"start_time\":\"P3M\",\"sort_order\":\"desc\",\"source_type\":\"table\",\"source_id\":\"x_549153_medical_0_doctors\"}]"
                     },
                     "styleConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":true,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"totalLabel\":\"Doctors\",\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":false,\"showPercentages\":true},\"registerPosition\":\"bottom\"}"
                     },
                     "isRealtime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : false
+                      "value" : null
                     },
                     "showRealtimeIndicator" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : null
                     },
                     "variant" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "auto"
+                      "value" : "CUSTOM"
                     },
                     "border" : {
                       "type" : "JSON_LITERAL",
@@ -1243,8 +1247,10 @@
                       "value" : false
                     },
                     "filterConfigurations" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "parFilters" ]
+                      }
                     },
                     "hideHeader" : {
                       "type" : "JSON_LITERAL",
@@ -1252,7 +1258,7 @@
                     },
                     "refreshFrequency" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "0"
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
@@ -1267,38 +1273,43 @@
                     "value" : ""
                   },
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "height" : "504px"
+                  }
                 }, {
                   "elementId" : "data_visualization_2",
                   "elementLabel" : "Data visualization 2",
                   "propertyValues" : {
                     "label" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Number of doctors in particular location",
+                        "comment" : ""
+                      }
                     },
                     "chartType" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "bar"
                     },
                     "dataConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "[{\"__viz_config_id\":\"dGFibGV4XzU0OTE1M19tZWRpY2FsXzBfZG9jdG9yczE2Mzc0Mjc5MzMwNTQ=\",\"__viz_config_label\":\"Doctors\",\"aggregate_function\":\"COUNT\",\"group_by\":\"city\",\"number_of_groups\":10,\"sort_order\":\"desc\",\"display_zero\":true,\"chart_settings\":{\"color\":{\"type\":\"palette\",\"sys_id\":\"29d113e9d7100200b96d45a3ce6103cd\"}},\"source_type\":\"table\",\"source_id\":\"x_549153_medical_0_doctors\"}]"
                     },
                     "styleConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : ""
+                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{},\"yAxisConfig\":{},\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true,\"showPercentages\":false},\"registerPosition\":\"bottom\"}"
                     },
                     "isRealtime" : {
                       "type" : "JSON_LITERAL",
-                      "value" : false
+                      "value" : null
                     },
                     "showRealtimeIndicator" : {
                       "type" : "JSON_LITERAL",
-                      "value" : true
+                      "value" : null
                     },
                     "variant" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "auto"
+                      "value" : "CUSTOM"
                     },
                     "border" : {
                       "type" : "JSON_LITERAL",
@@ -1321,8 +1332,10 @@
                       "value" : false
                     },
                     "filterConfigurations" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : null
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "parFilters" ]
+                      }
                     },
                     "hideHeader" : {
                       "type" : "JSON_LITERAL",
@@ -1330,7 +1343,7 @@
                     },
                     "refreshFrequency" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "0"
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
@@ -1345,16 +1358,103 @@
                     "value" : ""
                   },
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "height" : "504px"
+                  }
+                }, {
+                  "elementId" : "data_visualization_3",
+                  "elementLabel" : "Data visualization 3",
+                  "propertyValues" : {
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Medical knowledge base topics",
+                        "comment" : ""
+                      }
+                    },
+                    "chartType" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "semi_donut"
+                    },
+                    "dataConfigurations" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "[{\"__viz_config_id\":\"dGFibGVrYl9rbm93bGVkZ2UxNjM3NDI4MjE1NTI4\",\"__viz_config_label\":\"Knowledge\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"x_549153_medical_0_topicINcirculatory_issues,nervous_issues,skeletal_issues,skin_issues\",\"group_by\":\"x_549153_medical_0_topic\",\"number_of_groups\":10,\"sort_order\":\"desc\",\"display_zero\":true,\"chart_settings\":{\"color\":{\"type\":\"palette\",\"sys_id\":\"0c5bf2dfaa012af066077a80578888d5\"}},\"source_type\":\"table\",\"source_id\":\"kb_knowledge\"}]"
+                    },
+                    "styleConfigurations" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":true,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+                    },
+                    "isRealtime" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "showRealtimeIndicator" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "CUSTOM"
+                    },
+                    "border" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : true
+                    },
+                    "refreshInterval" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : ""
+                    },
+                    "kpiDetailsNavigation" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "followFilters" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : true
+                    },
+                    "hideFiltersInfo" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "filterConfigurations" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "parFilters" ]
+                      }
+                    },
+                    "hideHeader" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "refreshFrequency" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : "Column 3",
+                  "definition" : {
+                    "id" : "67cf18a377c70010cb834a2a6910619a",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : {
+                    "height" : "504px"
+                  }
                 } ],
                 "layout" : {
                   "default" : {
                     "children" : null,
-                    "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+                    "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
                     "root" : null,
                     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
                     "styles" : null,
-                    "templateId" : "a653f1cd53c31010e6bcddeeff7b128c",
+                    "templateId" : "4105f10153071010e6bcddeeff7b121e",
                     "type" : "flex"
                   },
                   "version" : "2.0.0"
@@ -1541,7 +1641,8 @@
               "isNonDestructive" : false,
               "styles" : {
                 "width" : "100%",
-                "padding" : "2rem 0rem 0rem 0rem"
+                "padding" : "6rem 0rem 0rem 0rem",
+                "background-image" : "url(https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg)"
               }
             }, {
               "elementId" : "container_14",
@@ -1588,7 +1689,7 @@
                   "isNonDestructive" : false,
                   "styles" : {
                     "font-family" : "sans-serif",
-                    "font-size" : "0.8rem",
+                    "font-size" : "1rem",
                     "font-weight" : "bolder",
                     "color" : "#343a40"
                   }
@@ -1626,7 +1727,7 @@
                   "isNonDestructive" : false,
                   "styles" : {
                     "font-family" : "sans-serif",
-                    "font-size" : "0.8rem",
+                    "font-size" : "1rem",
                     "font-weight" : "bolder",
                     "color" : "#343a40"
                   }
@@ -1664,7 +1765,7 @@
                   "isNonDestructive" : false,
                   "styles" : {
                     "font-family" : "sans-serif",
-                    "font-size" : "0.8rem",
+                    "font-size" : "1rem",
                     "font-weight" : "bolder",
                     "color" : "#343a40"
                   }
@@ -1702,7 +1803,7 @@
                   "isNonDestructive" : false,
                   "styles" : {
                     "font-family" : "sans-serif",
-                    "font-size" : "0.8rem",
+                    "font-size" : "1rem",
                     "font-weight" : "bolder",
                     "color" : "#343a40"
                   }
@@ -1740,7 +1841,7 @@
                   "isNonDestructive" : false,
                   "styles" : {
                     "font-family" : "sans-serif",
-                    "font-size" : "0.8rem",
+                    "font-size" : "1rem",
                     "font-weight" : "bolder",
                     "color" : "#343a40"
                   }
@@ -1765,7 +1866,8 @@
               "isNonDestructive" : false,
               "styles" : {
                 "width" : "100%",
-                "padding-bottom" : "2rem"
+                "padding-bottom" : "6rem",
+                "background-image" : "url(https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg)"
               }
             } ],
             "layout" : {
@@ -2366,7 +2468,7 @@
       },
       "isNonDestructive" : false,
       "styles" : {
-        "color" : "#343a40"
+        "color" : "white"
       }
     }, {
       "elementId" : "container_28",
@@ -2486,7 +2588,7 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding":"2rem","margin-top":"3rem","background-color":"#eff6f0"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding":"2rem","margin-top":"3rem","background-repeat":"no-repeat","background-size":"cover","background-image":"url(https://image.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63757.jpg)"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -2640,7 +2742,8 @@
                       "styles" : {
                         "font-family" : "sans-serif",
                         "font-size" : "1.5rem",
-                        "color" : "#343a40"
+                        "color" : "white",
+                        "font-weight" : "bolder"
                       }
                     } ],
                     "layout" : {
@@ -2757,7 +2860,8 @@
                       "styles" : {
                         "font-family" : "sans-serif",
                         "font-size" : "1.5rem",
-                        "color" : "#343a40"
+                        "color" : "white",
+                        "font-weight" : "bolder"
                       }
                     } ],
                     "layout" : {
@@ -2874,7 +2978,8 @@
                       "styles" : {
                         "font-family" : "sans-serif",
                         "font-size" : "1.5rem",
-                        "color" : "#343a40"
+                        "color" : "white",
+                        "font-weight" : "bolder"
                       }
                     } ],
                     "layout" : {
@@ -2992,7 +3097,8 @@
                         "font-family" : "sans-serif",
                         "font-size" : "1.5rem",
                         "justify-content" : "center",
-                        "color" : "#343a40"
+                        "color" : "white",
+                        "font-weight" : "bolder"
                       }
                     } ],
                     "layout" : {
@@ -3241,7 +3347,8 @@
           "isNonDestructive" : false,
           "styles" : {
             "width" : "100%",
-            "background-color" : "#eff6f0"
+            "padding-top" : "2rem",
+            "background-color" : "rgb(249, 249, 249)"
           }
         }, {
           "elementId" : "container_26",
@@ -3410,7 +3517,7 @@
             "layout" : {
               "default" : {
                 "children" : null,
-                "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
+                "items" : [{"slotName":"Column 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","border-bottom":"1px black"}},{"slotName":"Column 2","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 3","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}},{"slotName":"Column 4","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
                 "root" : null,
                 "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
                 "styles" : null,
@@ -3427,8 +3534,9 @@
           "isNonDestructive" : false,
           "styles" : {
             "width" : "100%",
-            "background-color" : "#eff6f0",
-            "padding-bottom" : "3.5rem"
+            "padding-bottom" : "2rem",
+            "border-bottom" : "2px fuchsia",
+            "background-color" : "rgb(249, 249, 249)"
           }
         }, {
           "elementId" : "container_29",
@@ -3538,131 +3646,13 @@
               },
               "isNonDestructive" : false,
               "styles" : {
-                "color" : "#343a40"
-              }
-            }, {
-              "elementId" : "container_30",
-              "elementLabel" : "Container 30",
-              "propertyValues" : { },
-              "eventMappings" : [ ],
-              "slot" : "Main",
-              "definition" : {
-                "id" : "d356d14b6e293a3020a244b63d278d8f",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : {
-                "composition" : [ {
-                  "elementId" : "icon_9",
-                  "elementLabel" : "Icon 9",
-                  "propertyValues" : {
-                    "icon" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "document-fill"
-                    },
-                    "size" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "xl"
-                    }
-                  },
-                  "eventMappings" : [ ],
-                  "slot" : "Main",
-                  "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
-                    "type" : "MACROPONENT"
-                  },
-                  "overrides" : null,
-                  "isHidden" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : ""
-                  },
-                  "isNonDestructive" : false,
-                  "styles" : {
-                    "color" : "#3a86ff",
-                    "padding-right" : "0.5rem"
-                  }
-                }, {
-                  "elementId" : "icon_10",
-                  "elementLabel" : "Icon 10",
-                  "propertyValues" : {
-                    "icon" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "document-fill"
-                    },
-                    "size" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "xl"
-                    }
-                  },
-                  "eventMappings" : [ ],
-                  "slot" : "Main",
-                  "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
-                    "type" : "MACROPONENT"
-                  },
-                  "overrides" : null,
-                  "isHidden" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : ""
-                  },
-                  "isNonDestructive" : false,
-                  "styles" : {
-                    "color" : "#3a86ff"
-                  }
-                }, {
-                  "elementId" : "icon_11",
-                  "elementLabel" : "Icon 11",
-                  "propertyValues" : {
-                    "icon" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "document-fill"
-                    },
-                    "size" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "xl"
-                    }
-                  },
-                  "eventMappings" : [ ],
-                  "slot" : "Main",
-                  "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
-                    "type" : "MACROPONENT"
-                  },
-                  "overrides" : null,
-                  "isHidden" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : ""
-                  },
-                  "isNonDestructive" : false,
-                  "styles" : {
-                    "padding-left" : "0.5rem",
-                    "color" : "#3a86ff"
-                  }
-                } ],
-                "layout" : {
-                  "default" : {
-                    "children" : null,
-                    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"row","align-items":"center","justify-content":"center","padding-bottom":"2rem"}}],
-                    "root" : null,
-                    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
-                    "styles" : null,
-                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-                    "type" : "flex"
-                  }
-                }
-              },
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : ""
-              },
-              "isNonDestructive" : false,
-              "styles" : {
-                "width" : "100%"
+                "color" : "white"
               }
             } ],
             "layout" : {
               "default" : {
                 "children" : null,
-                "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center","background-color":"#dfe7fd","padding-top":"1rem"}}],
+                "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center","background-color":"#dfe7fd","padding":"1.5rem 0rem 1.5rem 0rem","background-image":"url(https://image.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61808.jpg)"}}],
                 "root" : null,
                 "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
                 "styles" : null,
@@ -4075,6 +4065,287 @@
       "styles" : {
         "width" : "100%",
         "padding-bottom" : "2rem"
+      }
+    }, {
+      "elementId" : "container_32",
+      "elementLabel" : "Container 32",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "contact_card_1",
+          "elementLabel" : "Contact card 1",
+          "propertyValues" : {
+            "avatarSrc" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "headingName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Contact us",
+                "comment" : ""
+              }
+            },
+            "headingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "3"
+            },
+            "headingBadges" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Medical appointments",
+                      "comment" : ""
+                    }
+                  },
+                  "color" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "positive"
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Infoline 24/7",
+                      "comment" : ""
+                    }
+                  },
+                  "color" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "low"
+                  }
+                }
+              } ]
+            },
+            "subHeadingTitles" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Avaliable from Monday to Friday",
+                      "comment" : ""
+                    }
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Main office - Warsaw",
+                      "comment" : ""
+                    }
+                  },
+                  "clickable" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : true
+                  },
+                  "id" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "account-link"
+                  }
+                }
+              } ]
+            },
+            "subHeadingBadges" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Poland",
+                      "comment" : ""
+                    }
+                  },
+                  "color" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "critical"
+                  }
+                }
+              } ]
+            },
+            "content" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Mobile Phone",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "+1 858 867 5306",
+                      "comment" : ""
+                    }
+                  },
+                  "clickable" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : true
+                  },
+                  "id" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "mobile-link"
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Landline phone",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "+1 858 867 5306",
+                      "comment" : ""
+                    }
+                  },
+                  "clickable" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : true
+                  },
+                  "id" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "phone-link"
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Email",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "medical.appointments@med.com",
+                      "comment" : ""
+                    }
+                  },
+                  "clickable" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : true
+                  },
+                  "id" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "email-link"
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Fax",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "+1 323 555 1234",
+                      "comment" : ""
+                    }
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Office address",
+                      "comment" : ""
+                    }
+                  },
+                  "value" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Wesoła 32/15, Warsow",
+                      "comment" : ""
+                    }
+                  }
+                }
+              } ]
+            },
+            "hideBorder" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "ariaLabel" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "33d9c57fce38ce281001f4221f2b23e1",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding" : "1rem 0rem 0rem 0rem"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "styles" : null,
+            "templateId" : "1199b58153071010e6bcddeeff7b1286",
+            "type" : "flex"
+          },
+          "version" : "2.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
       }
     } ],
     "layout" : {
@@ -4914,6 +5185,12 @@
   "selectable" : false
 } ]</props>
         <required_translations>[ {
+  "message" : "+1 323 555 1234",
+  "comment" : ""
+}, {
+  "message" : "+1 858 867 5306",
+  "comment" : ""
+}, {
   "message" : "All Active Tasks",
   "comment" : ""
 }, {
@@ -4926,7 +5203,22 @@
   "message" : "Avaliable doctors",
   "comment" : ""
 }, {
+  "message" : "Avaliable from Monday to Friday",
+  "comment" : ""
+}, {
+  "message" : "Avaliable specializations",
+  "comment" : ""
+}, {
   "message" : "Cancel",
+  "comment" : ""
+}, {
+  "message" : "Contact us",
+  "comment" : ""
+}, {
+  "message" : "Email",
+  "comment" : ""
+}, {
+  "message" : "Fax",
   "comment" : ""
 }, {
   "message" : "Find your doctor and schedule your appointment",
@@ -4938,7 +5230,34 @@
   "message" : "Highest rated doctors",
   "comment" : ""
 }, {
+  "message" : "Infoline 24/7",
+  "comment" : ""
+}, {
+  "message" : "Landline phone",
+  "comment" : ""
+}, {
+  "message" : "Main office - Warsaw",
+  "comment" : ""
+}, {
+  "message" : "Medical appointments",
+  "comment" : ""
+}, {
   "message" : "Medical knowledge base",
+  "comment" : ""
+}, {
+  "message" : "Medical knowledge base topics",
+  "comment" : ""
+}, {
+  "message" : "Mobile Phone",
+  "comment" : ""
+}, {
+  "message" : "Number of doctors in particular location",
+  "comment" : ""
+}, {
+  "message" : "Office address",
+  "comment" : ""
+}, {
+  "message" : "Poland",
   "comment" : ""
 }, {
   "message" : "Provide your medical records",
@@ -4960,6 +5279,12 @@
   "comment" : ""
 }, {
   "message" : "Talk to our virtual agent",
+  "comment" : ""
+}, {
+  "message" : "Wesoła 32/15, Warsow",
+  "comment" : ""
+}, {
+  "message" : "medical.appointments@med.com",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -5037,13 +5362,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-11-07 18:43:46</sys_created_on>
         <sys_id>50c578b7092770108a9d5ec233688edc</sys_id>
-        <sys_mod_count>106</sys_mod_count>
+        <sys_mod_count>124</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name>sys_ux_macroponent_50c578b7092770108a9d5ec233688edc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-18 21:51:49</sys_updated_on>
+        <sys_updated_on>2021-11-20 18:17:13</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
