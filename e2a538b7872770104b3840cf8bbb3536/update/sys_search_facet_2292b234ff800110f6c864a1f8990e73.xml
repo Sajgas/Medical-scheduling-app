@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>x_549153_tes2_document_approval.approval_category</ais_facet_name>
+        <label>Category</label>
+        <name>Category</name>
+        <option_limit>10</option_limit>
+        <order>50</order>
+        <search_context_config display_value="tes2 - Document Approval Portal Search Configurati">ee92b23493800110871ecc7babfec772</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 04:25:40</sys_created_on>
+        <sys_id>2292b234ff800110f6c864a1f8990e73</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_549153_tes2_document_approval.approval_category</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>sys_search_facet_2292b234ff800110f6c864a1f8990e73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 04:26:17</sys_updated_on>
+    </sys_search_facet>
+</record_update>

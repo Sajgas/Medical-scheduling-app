@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>cf1db8ad87c001104b3840cf8bbb3565</image>
+        <name>calendar.svg</name>
+        <size_bytes>7431</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 16:00:51</sys_created_on>
+        <sys_id>9c1d74ad87c001104b3840cf8bbb35c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>calendar.svg</sys_name>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>db_image_9c1d74ad87c001104b3840cf8bbb35c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 16:00:57</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>946246a56a4313ded2120dd325ed855eaeaa05e803fadbfce513d7d1a25ca9fb</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>7431</size_bytes>
+        <size_compressed>2198</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 16:00:57</sys_created_on>
+        <sys_id>cf1db8ad87c001104b3840cf8bbb3565</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-25 16:00:57</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>9c1d74ad87c001104b3840cf8bbb35c8</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="cf1db8ad87c001104b3840cf8bbb3565">cf1db8ad87c001104b3840cf8bbb3565</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 16:00:57</sys_created_on>
+        <sys_id>031db8ad87c001104b3840cf8bbb3566</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2920</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="cf1db8ad87c001104b3840cf8bbb3565">cf1db8ad87c001104b3840cf8bbb3565</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 16:00:57</sys_created_on>
+        <sys_id>831db8ad87c001104b3840cf8bbb3566</sys_id>
+    </sys_attachment_doc>
+</record_update>

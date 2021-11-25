@@ -1057,7 +1057,7 @@
         "text" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
-            "message" : "Find your doctor and schedule your appointment",
+            "message" : "Welcome to Medical \nAppointment",
             "comment" : ""
           }
         },
@@ -1083,16 +1083,15 @@
       },
       "isNonDestructive" : false,
       "styles" : {
-        "color" : "#fefefe",
+        "color" : "#00BFA6",
         "font-weight" : "800",
-        "text-shadow" : "-1px -1px 0 #00BFA6,\n     0   -1px 0 #00BFA6,\n     1px -1px 0 #00BFA6,\n     1px  0   0 #00BFA6,\n     1px  1px 0 #00BFA6,\n     0    1px 0 #00BFA6,\n    -1px  1px 0 #00BFA6,\n    -1px  0   0 #00BFA6",
         "font-family" : "sans-serif"
       }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","justify-content":"center"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -1155,7 +1154,7 @@
                 },
                 "tag" : {
                   "type" : "JSON_LITERAL",
-                  "value" : "h2"
+                  "value" : "h3"
                 },
                 "css" : {
                   "type" : "JSON_LITERAL",
@@ -1212,7 +1211,7 @@
                     },
                     "styleConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":true,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"totalLabel\":\"Doctors\",\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":false,\"showPercentages\":true},\"registerPosition\":\"bottom\"}"
+                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"totalLabel\":\"Doctors\",\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":false,\"showPercentages\":true},\"registerPosition\":\"bottom\"}"
                     },
                     "isRealtime" : {
                       "type" : "JSON_LITERAL",
@@ -1274,7 +1273,7 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "height" : "504px"
+                    "height" : "400px"
                   }
                 }, {
                   "elementId" : "data_visualization_2",
@@ -1359,7 +1358,7 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "height" : "504px"
+                    "height" : "400px"
                   }
                 }, {
                   "elementId" : "data_visualization_3",
@@ -1382,7 +1381,7 @@
                     },
                     "styleConfigurations" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":true,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+                      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"showTotal\":true,\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
                     },
                     "isRealtime" : {
                       "type" : "JSON_LITERAL",
@@ -1444,7 +1443,7 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "height" : "504px"
+                    "height" : "400px"
                   }
                 } ],
                 "layout" : {
@@ -1480,51 +1479,34 @@
               },
               "overrides" : {
                 "composition" : [ {
-                  "elementId" : "icon_1",
-                  "elementLabel" : "Icon 1",
+                  "elementId" : "image_1",
+                  "elementLabel" : "Image 1",
                   "propertyValues" : {
-                    "icon" : {
+                    "alt" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "calendar-clock-fill"
+                      "value" : ""
                     },
-                    "size" : {
+                    "src" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "xl"
-                    }
-                  },
-                  "eventMappings" : [ ],
-                  "slot" : "Column 1",
-                  "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
-                    "type" : "MACROPONENT"
-                  },
-                  "overrides" : null,
-                  "isHidden" : {
-                    "type" : "JSON_LITERAL",
-                    "value" : ""
-                  },
-                  "isNonDestructive" : false,
-                  "styles" : {
-                    "color" : "#4D908E",
-                    "font-weight" : "800"
-                  }
-                }, {
-                  "elementId" : "icon_2",
-                  "elementLabel" : "Icon 2",
-                  "propertyValues" : {
-                    "icon" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "address-card-fill"
+                      "value" : "/records.svg"
                     },
-                    "size" : {
+                    "fit" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "xl"
+                      "value" : "cover"
+                    },
+                    "position" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "center center"
+                    },
+                    "height" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
                   "slot" : "Column 2",
                   "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
                     "type" : "MACROPONENT"
                   },
                   "overrides" : null,
@@ -1534,25 +1516,79 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "color" : "#4D908E"
+                    "height" : "7rem",
+                    "width" : "7.5rem"
                   }
                 }, {
-                  "elementId" : "icon_3",
-                  "elementLabel" : "Icon 3",
+                  "elementId" : "image_2",
+                  "elementLabel" : "Image 2",
                   "propertyValues" : {
-                    "icon" : {
+                    "alt" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "chat-fill"
+                      "value" : ""
                     },
-                    "size" : {
+                    "src" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "xl"
+                      "value" : "/time.svg"
+                    },
+                    "fit" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "cover"
+                    },
+                    "position" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "center center"
+                    },
+                    "height" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : "Column 1",
+                  "definition" : {
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : {
+                    "height" : "7rem",
+                    "width" : "7rem"
+                  }
+                }, {
+                  "elementId" : "image_3",
+                  "elementLabel" : "Image 3",
+                  "propertyValues" : {
+                    "alt" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : ""
+                    },
+                    "src" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "/agent.svg"
+                    },
+                    "fit" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "cover"
+                    },
+                    "position" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "center center"
+                    },
+                    "height" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
                   "slot" : "Column 3",
                   "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
                     "type" : "MACROPONENT"
                   },
                   "overrides" : null,
@@ -1562,25 +1598,38 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "color" : "#4D908E"
+                    "height" : "7rem",
+                    "width" : "7rem"
                   }
                 }, {
-                  "elementId" : "icon_4",
-                  "elementLabel" : "Icon 4",
+                  "elementId" : "image_4",
+                  "elementLabel" : "Image 4",
                   "propertyValues" : {
-                    "icon" : {
+                    "alt" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "circle-question-fill"
+                      "value" : ""
                     },
-                    "size" : {
+                    "src" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "xl"
+                      "value" : "/knowledge.svg"
+                    },
+                    "fit" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "cover"
+                    },
+                    "position" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "center center"
+                    },
+                    "height" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
                   "slot" : "Column 4",
                   "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
                     "type" : "MACROPONENT"
                   },
                   "overrides" : null,
@@ -1590,25 +1639,38 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "color" : "#4D908E"
+                    "height" : "7rem",
+                    "width" : "8rem"
                   }
                 }, {
-                  "elementId" : "icon_5",
-                  "elementLabel" : "Icon 5",
+                  "elementId" : "image_5",
+                  "elementLabel" : "Image 5",
                   "propertyValues" : {
-                    "icon" : {
+                    "alt" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "cellphone-fill"
+                      "value" : ""
                     },
-                    "size" : {
+                    "src" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "xl"
+                      "value" : "/notification.svg"
+                    },
+                    "fit" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "cover"
+                    },
+                    "position" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "center center"
+                    },
+                    "height" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
                     }
                   },
                   "eventMappings" : [ ],
                   "slot" : "Column 5",
                   "definition" : {
-                    "id" : "33eaddad37cf901283bbdc7a574773b9",
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
                     "type" : "MACROPONENT"
                   },
                   "overrides" : null,
@@ -1618,7 +1680,8 @@
                   },
                   "isNonDestructive" : false,
                   "styles" : {
-                    "color" : "#4D908E"
+                    "height" : "7rem",
+                    "width" : "8rem"
                   }
                 } ],
                 "layout" : {
@@ -1641,8 +1704,7 @@
               "isNonDestructive" : false,
               "styles" : {
                 "width" : "100%",
-                "padding" : "6rem 0rem 0rem 0rem",
-                "background-image" : "url(https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg)"
+                "padding" : "6rem 0rem 0rem 0rem"
               }
             }, {
               "elementId" : "container_14",
@@ -1691,7 +1753,7 @@
                     "font-family" : "sans-serif",
                     "font-size" : "1rem",
                     "font-weight" : "bolder",
-                    "color" : "#343a40"
+                    "color" : "#00BFA6"
                   }
                 }, {
                   "elementId" : "stylized_text_4",
@@ -1729,7 +1791,7 @@
                     "font-family" : "sans-serif",
                     "font-size" : "1rem",
                     "font-weight" : "bolder",
-                    "color" : "#343a40"
+                    "color" : "#00BFA6"
                   }
                 }, {
                   "elementId" : "stylized_text_5",
@@ -1767,7 +1829,7 @@
                     "font-family" : "sans-serif",
                     "font-size" : "1rem",
                     "font-weight" : "bolder",
-                    "color" : "#343a40"
+                    "color" : "#00BFA6"
                   }
                 }, {
                   "elementId" : "stylized_text_6",
@@ -1805,7 +1867,7 @@
                     "font-family" : "sans-serif",
                     "font-size" : "1rem",
                     "font-weight" : "bolder",
-                    "color" : "#343a40"
+                    "color" : "#00BFA6"
                   }
                 }, {
                   "elementId" : "stylized_text_7",
@@ -1843,7 +1905,7 @@
                     "font-family" : "sans-serif",
                     "font-size" : "1rem",
                     "font-weight" : "bolder",
-                    "color" : "#343a40"
+                    "color" : "#00BFA6"
                   }
                 } ],
                 "layout" : {
@@ -1866,8 +1928,229 @@
               "isNonDestructive" : false,
               "styles" : {
                 "width" : "100%",
-                "padding-bottom" : "6rem",
-                "background-image" : "url(https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg)"
+                "padding-bottom" : "4rem"
+              }
+            }, {
+              "elementId" : "container_34",
+              "elementLabel" : "Container 34",
+              "propertyValues" : { },
+              "eventMappings" : [ ],
+              "slot" : "Main",
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "stylized_text_20",
+                  "elementLabel" : "Stylized text 20",
+                  "propertyValues" : {
+                    "text" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Preview already scheduled appointments",
+                        "comment" : ""
+                      }
+                    },
+                    "tag" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "h1"
+                    },
+                    "css" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "* { }"
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : "Main",
+                  "definition" : {
+                    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : { }
+                }, {
+                  "elementId" : "button_9",
+                  "elementLabel" : "Button 9",
+                  "propertyValues" : {
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "primary"
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "lg"
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "PREVIEW",
+                        "comment" : ""
+                      }
+                    },
+                    "icon" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "tooltipContent" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Enter a label",
+                        "comment" : ""
+                      }
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "ckwfffbpddcaaaaffaddiiiieefeeaacwjjjjv",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_549153_medical_0.NAV_ITEM_SELECTED_RELAY_50c578b7092770108a9d5ec233688edc",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "route" : "already-scheduled",
+                            "fields" : null,
+                            "params" : null,
+                            "redirect" : null,
+                            "passiveNavigation" : null,
+                            "title" : null,
+                            "multiInstField" : null,
+                            "targetRoute" : null,
+                            "external" : null
+                          }
+                        },
+                        "sysId" : "d8c578b7bd2770101371af1093926dd4"
+                      },
+                      "operation" : null,
+                      "targetId" : "ckwfffbpddcaaaaffbddiiiieenffjjeejjnzbb",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : "Main",
+                  "definition" : {
+                    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : { }
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"row","align-items":"center","justify-content":"space-evenly","padding-bottom":"4rem"}}],
+                    "root" : null,
+                    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                    "styles" : null,
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  }
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "width" : "100%"
+              }
+            }, {
+              "elementId" : "container_33",
+              "elementLabel" : "Container 33",
+              "propertyValues" : { },
+              "eventMappings" : [ ],
+              "slot" : "Main",
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "stylized_text_19",
+                  "elementLabel" : "Stylized text 19",
+                  "propertyValues" : {
+                    "text" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "message" : "Choose desired medical specialist from the list below.",
+                        "comment" : ""
+                      }
+                    },
+                    "tag" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "h1"
+                    },
+                    "css" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "* { }"
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : "Main",
+                  "definition" : {
+                    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : ""
+                  },
+                  "isNonDestructive" : false,
+                  "styles" : {
+                    "color" : "#00BFA6"
+                  }
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding-top":"3.5rem"}}],
+                    "root" : null,
+                    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                    "styles" : null,
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  }
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "width" : "100%"
               }
             } ],
             "layout" : {
@@ -2468,7 +2751,7 @@
       },
       "isNonDestructive" : false,
       "styles" : {
-        "color" : "white"
+        "color" : "#00BFA6"
       }
     }, {
       "elementId" : "container_28",
@@ -2588,7 +2871,7 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding":"2rem","margin-top":"3rem","background-repeat":"no-repeat","background-size":"cover","background-image":"url(https://image.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63757.jpg)"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","padding":"2rem","margin-top":"3rem"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -2741,8 +3024,8 @@
                       "isNonDestructive" : false,
                       "styles" : {
                         "font-family" : "sans-serif",
-                        "font-size" : "1.5rem",
-                        "color" : "white",
+                        "font-size" : "1.2rem",
+                        "color" : "#00BFA6",
                         "font-weight" : "bolder"
                       }
                     } ],
@@ -2859,8 +3142,8 @@
                       "isNonDestructive" : false,
                       "styles" : {
                         "font-family" : "sans-serif",
-                        "font-size" : "1.5rem",
-                        "color" : "white",
+                        "font-size" : "1.2rem",
+                        "color" : "#00BFA6",
                         "font-weight" : "bolder"
                       }
                     } ],
@@ -2977,8 +3260,8 @@
                       "isNonDestructive" : false,
                       "styles" : {
                         "font-family" : "sans-serif",
-                        "font-size" : "1.5rem",
-                        "color" : "white",
+                        "font-size" : "1.2rem",
+                        "color" : "#00BFA6",
                         "font-weight" : "bolder"
                       }
                     } ],
@@ -3095,9 +3378,9 @@
                       "isNonDestructive" : false,
                       "styles" : {
                         "font-family" : "sans-serif",
-                        "font-size" : "1.5rem",
+                        "font-size" : "1.2rem",
                         "justify-content" : "center",
-                        "color" : "white",
+                        "color" : "#00BFA6",
                         "font-weight" : "bolder"
                       }
                     } ],
@@ -3347,8 +3630,7 @@
           "isNonDestructive" : false,
           "styles" : {
             "width" : "100%",
-            "padding-top" : "2rem",
-            "background-color" : "rgb(249, 249, 249)"
+            "padding-top" : "2rem"
           }
         }, {
           "elementId" : "container_26",
@@ -3398,7 +3680,9 @@
                 "value" : ""
               },
               "isNonDestructive" : false,
-              "styles" : { }
+              "styles" : {
+                "color" : "gold"
+              }
             }, {
               "elementId" : "star_rating_2",
               "elementLabel" : "Star rating 2",
@@ -3535,8 +3819,7 @@
           "styles" : {
             "width" : "100%",
             "padding-bottom" : "2rem",
-            "border-bottom" : "2px fuchsia",
-            "background-color" : "rgb(249, 249, 249)"
+            "border-bottom" : "2px fuchsia"
           }
         }, {
           "elementId" : "container_29",
@@ -4064,7 +4347,7 @@
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%",
-        "padding-bottom" : "2rem"
+        "padding-bottom" : "4rem"
       }
     }, {
       "elementId" : "container_32",
@@ -4329,11 +4612,11 @@
         "layout" : {
           "default" : {
             "children" : null,
-            "items" : [{"slotName":"Main","rules":{"flex":"2","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 1","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
             "root" : null,
             "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
             "styles" : null,
-            "templateId" : "1199b58153071010e6bcddeeff7b1286",
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
             "type" : "flex"
           },
           "version" : "2.0.0"
@@ -5212,16 +5495,19 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
+  "message" : "Choose desired medical specialist from the list below.",
+  "comment" : ""
+}, {
   "message" : "Contact us",
   "comment" : ""
 }, {
   "message" : "Email",
   "comment" : ""
 }, {
-  "message" : "Fax",
+  "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Find your doctor and schedule your appointment",
+  "message" : "Fax",
   "comment" : ""
 }, {
   "message" : "Get notified",
@@ -5257,7 +5543,13 @@
   "message" : "Office address",
   "comment" : ""
 }, {
+  "message" : "PREVIEW",
+  "comment" : ""
+}, {
   "message" : "Poland",
+  "comment" : ""
+}, {
+  "message" : "Preview already scheduled appointments",
   "comment" : ""
 }, {
   "message" : "Provide your medical records",
@@ -5279,6 +5571,9 @@
   "comment" : ""
 }, {
   "message" : "Talk to our virtual agent",
+  "comment" : ""
+}, {
+  "message" : "Welcome to Medical \nAppointment",
   "comment" : ""
 }, {
   "message" : "Wesoła 32/15, Warsow",
@@ -5362,13 +5657,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-11-07 18:43:46</sys_created_on>
         <sys_id>50c578b7092770108a9d5ec233688edc</sys_id>
-        <sys_mod_count>124</sys_mod_count>
+        <sys_mod_count>147</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name>sys_ux_macroponent_50c578b7092770108a9d5ec233688edc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-20 18:17:13</sys_updated_on>
+        <sys_updated_on>2021-11-25 16:04:45</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="tes2 - Document Approvals Search">ee92b234728001109b44aba621cc84bf</search_context_config>
+        <source display_value="Document Approval">2e92b23457800110a2d52ca58aec01a4</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 23:21:26</sys_created_on>
+        <sys_id>a292b23423800110fa58c6f5d6c9c8c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_a292b23423800110fa58c6f5d6c9c8c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 23:21:26</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

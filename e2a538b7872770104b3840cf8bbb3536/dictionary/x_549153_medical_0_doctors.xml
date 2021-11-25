@@ -24,6 +24,7 @@
                 <element inactive_on_update="false" label="Zielona Góra" sequence="180" value="zielona_g_ra"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="calendar_date_time"/>
         <element label="Education" max_length="80" name="education" type="string"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
         <element label="Languages" max_length="60" name="languages" type="string"/>
@@ -44,5 +45,7 @@
             </choice>
         </element>
         <element label="Type of appointement" max_length="60" name="type_of_appointement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
     </element>
 </database>

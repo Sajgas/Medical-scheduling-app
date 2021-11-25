@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Scheduled appointments" max_length="40" name="x_549153_medical_0_scheduled_appointments" sizeclass="26" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Appointment date" max_length="40" name="appointment_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Appointment time" max_length="40" name="appointment_time" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Doctor name" max_length="40" name="doctor_name" type="string"/>
+        <element label="Email address" max_length="40" name="email_address" type="string"/>
+        <element label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="ref" reference="sys_user" type="reference"/>
+        <element label="Scheduled by first name" max_length="40" name="scheduled_by" type="string"/>
+        <element label="Scheduled by last name" max_length="40" name="scheduled_by_last_name" type="string"/>
+    </element>
+</database>
