@@ -46,12 +46,14 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "color" : "#00BFA6"
+      }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","align-items":"center"}}],
         "root" : null,
         "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
@@ -116,7 +118,10 @@
         "value" : ""
       },
       "isNonDestructive" : false,
-      "styles" : { }
+      "styles" : {
+        "padding-left" : "1rem",
+        "padding-right" : "1rem"
+      }
     }, {
       "elementId" : "list__simple_1",
       "elementLabel" : "List - Simple 1",
@@ -124,7 +129,7 @@
         "listTitle" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
-            "message" : "All Active Tasks",
+            "message" : "Scheduled appointments",
             "comment" : ""
           }
         },
@@ -153,7 +158,7 @@
         },
         "columns" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "doctor_name,appointment_date,appointment_time,city,address"
         },
         "groupByField" : {
           "type" : "JSON_LITERAL",
@@ -165,7 +170,7 @@
         },
         "maxColumns" : {
           "type" : "JSON_LITERAL",
-          "value" : 5
+          "value" : "6"
         },
         "page" : {
           "type" : "JSON_LITERAL",
@@ -217,11 +222,11 @@
         },
         "hideLinks" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideViewAll" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideCellFilter" : {
           "type" : "JSON_LITERAL",
@@ -403,7 +408,7 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column","padding":"0rem 2rem 0rem 2rem"}}],
     "root" : null,
     "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
     "styles" : null,
@@ -415,7 +420,7 @@
         <name>Already scheduled</name>
         <props>[ ]</props>
         <required_translations>[ {
-  "message" : "All Active Tasks",
+  "message" : "Scheduled appointments",
   "comment" : ""
 }, {
   "message" : "Your appointments",
@@ -444,13 +449,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-25 15:58:23</sys_created_on>
         <sys_id>ed8c74ad87c001104b3840cf8bbb3559</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Already scheduled</sys_name>
         <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name>sys_ux_macroponent_ed8c74ad87c001104b3840cf8bbb3559</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-25 17:56:09</sys_updated_on>
+        <sys_updated_on>2021-11-27 10:39:46</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

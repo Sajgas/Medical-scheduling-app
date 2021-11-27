@@ -11,12 +11,12 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>send_notification</internal_name>
-        <label_cache>[{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Records","label":"1➛Scheduled appointments Records","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Table","label":"1➛Scheduled appointments Table","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current","label":"Trigger➛Scheduled appointments Record","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.number","label":"Trigger➛Scheduled appointments Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"number"},{"name":"Created_1.current.scheduled_by","label":"Trigger➛Scheduled appointments Record➛Scheduled by first name","reference":"","reference_display":"Scheduled by first name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"scheduled_by"},{"name":"Created or Updated_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.doctor_name","label":"Trigger➛Scheduled appointments Record➛Doctor name","reference":"","reference_display":"Doctor name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"doctor_name"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.doctor_name","label":"Trigger➛Scheduled appointments Record➛Doctor name","reference":"","reference_display":"Doctor name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"doctor_name"},{"name":"Created or Updated_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.scheduled_by","label":"Trigger➛Scheduled appointments Record➛Scheduled by first name","reference":"","reference_display":"Scheduled by first name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"scheduled_by"},{"name":"Created_1.current.number","label":"Trigger➛Scheduled appointments Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"number"},{"name":"Created_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current","label":"Trigger➛Scheduled appointments Record","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Table","label":"1➛Scheduled appointments Table","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Records","label":"1➛Scheduled appointments Records","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.ref","label":"Trigger➛Scheduled appointments Record➛Patient name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"ref"},{"name":"Created_1.current.appointment_date","label":"Trigger➛Scheduled appointments Record➛Appointment date","reference":"","reference_display":"Appointment date","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"appointment_date"},{"name":"Created_1.current.appointment_time","label":"Trigger➛Scheduled appointments Record➛Appointment time","reference":"","reference_display":"Appointment time","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"appointment_time"},{"name":"Created_1.current.city","label":"Trigger➛Scheduled appointments Record➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"city"},{"name":"Created_1.current.address","label":"Trigger➛Scheduled appointments Record➛Address","reference":"","reference_display":"Address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"address"},{"name":"Created_1.current.ref.first_name","label":"Trigger➛Scheduled appointments Record➛Patient name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"}]</label_cache>
         <master_snapshot>b9ad2230878001104b3840cf8bbb35aa</master_snapshot>
         <name>Send notification</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>e65c3efc878001104b3840cf8bbb35f2</remote_trigger_id>
+        <remote_trigger_id>02ca3aca87cc01104b3840cf8bbb357e</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56b22ef4874001104b3840cf8bbb3517</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Send notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Medical Appointment" source="x_549153_medical_0">e2a538b7872770104b3840cf8bbb3536</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name>sys_hub_flow_56b22ef4874001104b3840cf8bbb3517</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:26</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=56b22ef4874001104b3840cf8bbb3517"/>
@@ -57,42 +57,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:21:25</sys_created_on>
+        <sys_created_on>2021-11-27 14:26:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e65c3efc878001104b3840cf8bbb35f2</sys_id>
+        <sys_id>02ca3aca87cc01104b3840cf8bbb357e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <table>x_549153_medical_0_scheduled_appointments</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"6e5c3efc878001104b3840cf8bbb35f2","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"caca3aca87cc01104b3840cf8bbb357e","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>56b22ef4874001104b3840cf8bbb3517</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:21:25</sys_created_on>
-        <sys_id>6e5c3efc878001104b3840cf8bbb35f2</sys_id>
+        <sys_created_on>2021-11-27 14:26:59</sys_created_on>
+        <sys_id>caca3aca87cc01104b3840cf8bbb357e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
-        <trigger display_value="">e65c3efc878001104b3840cf8bbb35f2</trigger>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
+        <trigger display_value="">02ca3aca87cc01104b3840cf8bbb357e</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>6e5c3efc878001104b3840cf8bbb35f2</document_id>
+        <document_id>caca3aca87cc01104b3840cf8bbb357e</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:21:25</sys_created_on>
-        <sys_id>225c3efc878001104b3840cf8bbb35f3</sys_id>
+        <sys_created_on>2021-11-27 14:26:59</sys_created_on>
+        <sys_id>c2ca3aca87cc01104b3840cf8bbb357f</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN6e5c3efc878001104b3840cf8bbb35f2"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=56b22ef4874001104b3840cf8bbb3517^sys_idNOT INcaca3aca87cc01104b3840cf8bbb357e"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=56b22ef4874001104b3840cf8bbb3517^sys_idNOT INb265fa78878001104b3840cf8bbb358f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:51:08</sys_created_on>
         <sys_id>b265fa78878001104b3840cf8bbb358f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -216,14 +216,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 15:48:54</sys_created_on>
         <sys_id>8f2766f8874001104b3840cf8bbb356b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -297,14 +297,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 15:48:54</sys_created_on>
         <sys_id>db2766f8874001104b3840cf8bbb3572</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -316,57 +316,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN0dbbb2fc878001104b3840cf8bbb357b,1f2766f8874001104b3840cf8bbb358a"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_type display_value="Send SMS">027499be7333001099792f163cf6a7a7</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot>027499be7333001099792f163cf6a7a7</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Send notification">56b22ef4874001104b3840cf8bbb3517</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:35</sys_created_on>
-        <sys_id>0dbbb2fc878001104b3840cf8bbb357b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:39</sys_updated_on>
-        <ui_id>d633f37d-cb80-4791-9ffb-e580bd553663</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=0dbbb2fc878001104b3840cf8bbb357b"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>0dbbb2fc878001104b3840cf8bbb357b</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:36</sys_created_on>
-        <sys_id>85bbb2fc878001104b3840cf8bbb357e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:18:36</sys_updated_on>
-        <value>test</value>
-        <variable display_value="Message">427499be7333001099792f163cf6a7ae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>0dbbb2fc878001104b3840cf8bbb357b</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:36</sys_created_on>
-        <sys_id>cdbbb2fc878001104b3840cf8bbb357d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:23</sys_updated_on>
-        <value>+48790858578</value>
-        <variable display_value="Recipients">ce7499be7333001099792f163cf6a7a7</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7^id=0dbbb2fc878001104b3840cf8bbb357b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN1f2766f8874001104b3840cf8bbb358a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -382,10 +332,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 15:48:54</sys_created_on>
         <sys_id>1f2766f8874001104b3840cf8bbb358a</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:39</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <ui_id>c35ade08-5cf9-4bb3-a336-d7d3e0b92299</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1f2766f8874001104b3840cf8bbb358a"/>
@@ -411,10 +361,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 15:48:54</sys_created_on>
         <sys_id>1f2766f8874001104b3840cf8bbb358d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 15:48:54</sys_updated_on>
-        <value>test </value>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <value>Your appointment has been added</value>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -452,11 +402,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 15:48:54</sys_created_on>
         <sys_id>532766f8874001104b3840cf8bbb358d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:05:43</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:57</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;test +&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5d23d5b6-138a-455b-9d43-8cc28f3b0eb1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5d23d5b6-138a-455b-9d43-8cc28f3b0eb1}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled by first name&lt;button id="transform_function_facade_5d23d5b6-138a-455b-9d43-8cc28f3b0eb1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d94e65bb-4a93-4c89-89e4-9fa1fa60bdff}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:d94e65bb-4a93-4c89-89e4-9fa1fa60bdff}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Patient name&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_d94e65bb-4a93-4c89-89e4-9fa1fa60bdff" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;Your medical appointmen has been planned on&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cd94a236-456f-494f-b301-097bf75915fb}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cd94a236-456f-494f-b301-097bf75915fb}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Appointment date&lt;button id="transform_function_facade_cd94a236-456f-494f-b301-097bf75915fb" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, at&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Appointment time&lt;button id="transform_function_facade_4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Doctor&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:37830309-1672-49c3-8a95-fe160c3357cf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:37830309-1672-49c3-8a95-fe160c3357cf}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Doctor name&lt;button id="transform_function_facade_37830309-1672-49c3-8a95-fe160c3357cf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; will be waiting for You in our medical facility:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b7e123ff-658e-4662-bf88-59635ac7ff13}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b7e123ff-658e-4662-bf88-59635ac7ff13}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;City&lt;button id="transform_function_facade_b7e123ff-658e-4662-bf88-59635ac7ff13" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14a71650-6ad2-4bc3-879e-abdb1293b640}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:14a71650-6ad2-4bc3-879e-abdb1293b640}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Address&lt;button id="transform_function_facade_14a71650-6ad2-4bc3-879e-abdb1293b640" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;In case of any quiesions or problems contact us: 123 456 789&lt;br /&gt;Medical Appointment team&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -520,7 +473,24 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 16:46:08</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN18c8fa3c878001104b3840cf8bbb359e,572766f8874001104b3840cf8bbb3590,dcc8fa3c878001104b3840cf8bbb359d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN1119cece87c801104b3840cf8bbb35f2,18c8fa3c878001104b3840cf8bbb359e,5119cece87c801104b3840cf8bbb35f1,572766f8874001104b3840cf8bbb3590,5919cece87c801104b3840cf8bbb35f2,5d19cece87c801104b3840cf8bbb35f1,9519cece87c801104b3840cf8bbb35f2,9919cece87c801104b3840cf8bbb35f1,d119cece87c801104b3840cf8bbb35f2,dcc8fa3c878001104b3840cf8bbb359d,ead9ca02870c01104b3840cf8bbb35a6"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>1119cece87c801104b3840cf8bbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
         <extra_info/>
@@ -537,6 +507,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>5d23d5b6-138a-455b-9d43-8cc28f3b0eb1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.ref}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>5119cece87c801104b3840cf8bbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06f09118-ffa8-462c-9afc-0717925dabb2</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
@@ -559,6 +546,91 @@
         <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created_1.current.address}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>5919cece87c801104b3840cf8bbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14a71650-6ad2-4bc3-879e-abdb1293b640</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>5d19cece87c801104b3840cf8bbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>58d1ea65-570b-44ea-b190-2f2211477900</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.city}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>9519cece87c801104b3840cf8bbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b7e123ff-658e-4662-bf88-59635ac7ff13</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>9919cece87c801104b3840cf8bbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cd94a236-456f-494f-b301-097bf75915fb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.doctor_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:49:50</sys_created_on>
+        <sys_id>d119cece87c801104b3840cf8bbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:49:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>37830309-1672-49c3-8a95-fe160c3357cf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created_1.current.doctor_name}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -571,6 +643,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>3e817952-1042-4464-ba12-260fa2d2f6a9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>56b22ef4874001104b3840cf8bbb3517</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.ref.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:53:12</sys_created_on>
+        <sys_id>ead9ca02870c01104b3840cf8bbb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:53:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d94e65bb-4a93-4c89-89e4-9fa1fa60bdff</ui_id>
     </sys_hub_pill_compound>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_56b22ef4874001104b3840cf8bbb3517^sys_idNOT IN172766f8874001104b3840cf8bbb3571,5b2766f8874001104b3840cf8bbb3576"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -624,18 +713,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"dead6230878001104b3840cf8bbb3526","name":"plan","plan_signature":null}}</plan>
         <plan_id>56b22ef4874001104b3840cf8bbb3517</plan_id>
-        <snapshot>bd6cbefc878001104b3840cf8bbb3561</snapshot>
+        <snapshot>b9ad2230878001104b3840cf8bbb35aa</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dead6230878001104b3840cf8bbb3526</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
-        <trigger display_value="">e65c3efc878001104b3840cf8bbb35f2</trigger>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
+        <trigger display_value="">02ca3aca87cc01104b3840cf8bbb357e</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -648,7 +737,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>send_notification</internal_name>
-        <label_cache>[{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Records","label":"1➛Scheduled appointments Records","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Table","label":"1➛Scheduled appointments Table","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current","label":"Trigger➛Scheduled appointments Record","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.number","label":"Trigger➛Scheduled appointments Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"number"},{"name":"Created_1.current.scheduled_by","label":"Trigger➛Scheduled appointments Record➛Scheduled by first name","reference":"","reference_display":"Scheduled by first name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"scheduled_by"},{"name":"Created or Updated_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.doctor_name","label":"Trigger➛Scheduled appointments Record➛Doctor name","reference":"","reference_display":"Doctor name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"doctor_name"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.doctor_name","label":"Trigger➛Scheduled appointments Record➛Doctor name","reference":"","reference_display":"Doctor name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"doctor_name"},{"name":"Created or Updated_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current.scheduled_by","label":"Trigger➛Scheduled appointments Record➛Scheduled by first name","reference":"","reference_display":"Scheduled by first name","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"scheduled_by"},{"name":"Created_1.current.number","label":"Trigger➛Scheduled appointments Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"number"},{"name":"Created_1.current.email_address","label":"Trigger➛Scheduled appointments Record➛Email address","reference":"","reference_display":"Email address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"email_address"},{"name":"Created_1.current","label":"Trigger➛Scheduled appointments Record","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"reference","base_type":"reference","attributes":{}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Table","label":"1➛Scheduled appointments Table","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4911f465-bafd-4509-9cd8-ec699e28312b.Records","label":"1➛Scheduled appointments Records","reference":"x_549153_medical_0_scheduled_appointments","reference_display":"Scheduled appointments","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c35ade08-5cf9-4bb3-a336-d7d3e0b92299.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"79d4cdca-291a-48cb-98d8-3c9ce76878d7.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.email","label":"2➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d633f37d-cb80-4791-9ffb-e580bd553663.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.ref","label":"Trigger➛Scheduled appointments Record➛Patient name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"ref"},{"name":"Created_1.current.appointment_date","label":"Trigger➛Scheduled appointments Record➛Appointment date","reference":"","reference_display":"Appointment date","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"appointment_date"},{"name":"Created_1.current.appointment_time","label":"Trigger➛Scheduled appointments Record➛Appointment time","reference":"","reference_display":"Appointment time","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"appointment_time"},{"name":"Created_1.current.city","label":"Trigger➛Scheduled appointments Record➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"city"},{"name":"Created_1.current.address","label":"Trigger➛Scheduled appointments Record➛Address","reference":"","reference_display":"Address","type":"string","base_type":"string","parent_table_name":"x_549153_medical_0_scheduled_appointments","column_name":"address"},{"name":"Created_1.current.ref.first_name","label":"Trigger➛Scheduled appointments Record➛Patient name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"}]</label_cache>
         <master>true</master>
         <name>Send notification</name>
         <natlang/>
@@ -665,7 +754,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9ad2230878001104b3840cf8bbb35aa</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -673,7 +762,7 @@
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b9ad2230878001104b3840cf8bbb35aa"/>
@@ -688,10 +777,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:13</sys_created_on>
         <sys_id>0ead2230878001104b3840cf8bbb35e6</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:25</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -843,14 +932,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:12</sys_created_on>
         <sys_id>71ad2230878001104b3840cf8bbb35ad</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -924,14 +1013,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:13</sys_created_on>
         <sys_id>bdad2230878001104b3840cf8bbb35c6</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -943,7 +1032,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=b9ad2230878001104b3840cf8bbb35aa^sys_idNOT INcead2230878001104b3840cf8bbb35e3,e9bbf2fc878001104b3840cf8bbb3525"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b9ad2230878001104b3840cf8bbb35aa^sys_idNOT INcead2230878001104b3840cf8bbb35e3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -959,10 +1048,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:13</sys_created_on>
         <sys_id>cead2230878001104b3840cf8bbb35e3</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:59</sys_updated_on>
         <ui_id>c35ade08-5cf9-4bb3-a336-d7d3e0b92299</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cead2230878001104b3840cf8bbb35e3"/>
@@ -974,10 +1063,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:13</sys_created_on>
         <sys_id>0aad2230878001104b3840cf8bbb35e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 16:17:13</sys_updated_on>
-        <value>test </value>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <value>Your appointment has been added</value>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1029,11 +1118,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-23 16:17:13</sys_created_on>
         <sys_id>4ead2230878001104b3840cf8bbb35e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:05:44</sys_updated_on>
+        <sys_updated_on>2021-11-27 14:26:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p&gt;test +&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5d23d5b6-138a-455b-9d43-8cc28f3b0eb1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:5d23d5b6-138a-455b-9d43-8cc28f3b0eb1}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled by first name&lt;button id="transform_function_facade_5d23d5b6-138a-455b-9d43-8cc28f3b0eb1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:d94e65bb-4a93-4c89-89e4-9fa1fa60bdff}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:d94e65bb-4a93-4c89-89e4-9fa1fa60bdff}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Patient name&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;First name&lt;button id="transform_function_facade_d94e65bb-4a93-4c89-89e4-9fa1fa60bdff" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;Your medical appointmen has been planned on&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cd94a236-456f-494f-b301-097bf75915fb}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cd94a236-456f-494f-b301-097bf75915fb}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Appointment date&lt;button id="transform_function_facade_cd94a236-456f-494f-b301-097bf75915fb" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, at&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Appointment time&lt;button id="transform_function_facade_4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Doctor&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:37830309-1672-49c3-8a95-fe160c3357cf}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:37830309-1672-49c3-8a95-fe160c3357cf}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Doctor name&lt;button id="transform_function_facade_37830309-1672-49c3-8a95-fe160c3357cf" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; will be waiting for You in our medical facility:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b7e123ff-658e-4662-bf88-59635ac7ff13}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b7e123ff-658e-4662-bf88-59635ac7ff13}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;City&lt;button id="transform_function_facade_b7e123ff-658e-4662-bf88-59635ac7ff13" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:14a71650-6ad2-4bc3-879e-abdb1293b640}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:14a71650-6ad2-4bc3-879e-abdb1293b640}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Scheduled appointments Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Address&lt;button id="transform_function_facade_14a71650-6ad2-4bc3-879e-abdb1293b640" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;In case of any quiesions or problems contact us: 123 456 789&lt;br /&gt;Medical Appointment team&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -1097,57 +1189,92 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 16:46:10</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_type display_value="Send SMS">027499be7333001099792f163cf6a7a7</action_type>
-        <action_type_parent display_value="Send SMS">d2733cb27333001099792f163cf6a77f</action_type_parent>
-        <comment/>
-        <compiled_snapshot>027499be7333001099792f163cf6a7a7</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Send notification">b9ad2230878001104b3840cf8bbb35aa</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b9ad2230878001104b3840cf8bbb35aa^sys_idNOT IN15398202870c01104b3840cf8bbb3547,19398202870c01104b3840cf8bbb3546,51398202870c01104b3840cf8bbb3547,5d398202870c01104b3840cf8bbb3546,5d398202870c01104b3840cf8bbb3547,78c83e3c878001104b3840cf8bbb354d,7cc83e3c878001104b3840cf8bbb354d,86ad2230878001104b3840cf8bbb35e8,99398202870c01104b3840cf8bbb3547,d5398202870c01104b3840cf8bbb3547,f6d90e02870c01104b3840cf8bbb353c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.city}}</prescription>
+        <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:37</sys_created_on>
-        <sys_id>e9bbf2fc878001104b3840cf8bbb3525</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>15398202870c01104b3840cf8bbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
-        <ui_id>d633f37d-cb80-4791-9ffb-e580bd553663</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=e9bbf2fc878001104b3840cf8bbb3525"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>e9bbf2fc878001104b3840cf8bbb3525</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b7e123ff-658e-4662-bf88-59635ac7ff13</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_time}}</prescription>
+        <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:37</sys_created_on>
-        <sys_id>a1bbf2fc878001104b3840cf8bbb3527</sys_id>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>19398202870c01104b3840cf8bbb3546</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:18:37</sys_updated_on>
-        <value>test</value>
-        <variable display_value="Message">427499be7333001099792f163cf6a7ae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>e9bbf2fc878001104b3840cf8bbb3525</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4bf47eb2-161a-4a9b-8e52-a21f3f9ba9f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_time}}</prescription>
+        <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-23 17:18:37</sys_created_on>
-        <sys_id>edbbf2fc878001104b3840cf8bbb3526</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>51398202870c01104b3840cf8bbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 17:21:24</sys_updated_on>
-        <value>+48790858578</value>
-        <variable display_value="Recipients">ce7499be7333001099792f163cf6a7a7</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7^id=e9bbf2fc878001104b3840cf8bbb3525"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b9ad2230878001104b3840cf8bbb35aa^sys_idNOT IN78c83e3c878001104b3840cf8bbb354d,7cc83e3c878001104b3840cf8bbb354d,86ad2230878001104b3840cf8bbb35e8"/>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>58d1ea65-570b-44ea-b190-2f2211477900</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.address}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>5d398202870c01104b3840cf8bbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>14a71650-6ad2-4bc3-879e-abdb1293b640</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.ref}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>5d398202870c01104b3840cf8bbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06f09118-ffa8-462c-9afc-0717925dabb2</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
         <extra_info/>
@@ -1198,6 +1325,57 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>862744ef-a32e-471e-8fd2-1f7c9c0504bf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.appointment_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>99398202870c01104b3840cf8bbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cd94a236-456f-494f-b301-097bf75915fb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.doctor_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:50:24</sys_created_on>
+        <sys_id>d5398202870c01104b3840cf8bbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:50:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>37830309-1672-49c3-8a95-fe160c3357cf</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b9ad2230878001104b3840cf8bbb35aa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.ref.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-27 10:53:14</sys_created_on>
+        <sys_id>f6d90e02870c01104b3840cf8bbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Medical Appointment">e2a538b7872770104b3840cf8bbb3536</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-27 10:53:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d94e65bb-4a93-4c89-89e4-9fa1fa60bdff</ui_id>
     </sys_hub_pill_compound>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b9ad2230878001104b3840cf8bbb35aa^sys_idNOT INb9ad2230878001104b3840cf8bbb35cc,bdad2230878001104b3840cf8bbb35c2"/>
     <sys_documentation action="INSERT_OR_UPDATE">

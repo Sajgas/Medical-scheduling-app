@@ -47,5 +47,6 @@
         <element label="Type of appointement" max_length="60" name="type_of_appointement" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Years of experience" max_length="40" name="years_of_experience" type="string"/>
     </element>
 </database>

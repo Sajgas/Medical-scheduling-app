@@ -1,170 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="5b8997dc873330104b3840cf8bbb3540" sys_domain="global" table="x_549153_medical_0_doctors" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>ec43a4d0878041104b3840cf8bbb3526</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>0382924a870c01104b3840cf8bbb3591</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>8782924a870c01104b3840cf8bbb3591</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>specialization</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6443a4d0878041104b3840cf8bbb3527</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>0f82924a870c01104b3840cf8bbb3591</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>about_me</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>e843a4d0878041104b3840cf8bbb3527</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>8382924a870c01104b3840cf8bbb3592</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>price</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6043a4d0878041104b3840cf8bbb3528</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>0b82924a870c01104b3840cf8bbb3592</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>e443a4d0878041104b3840cf8bbb3528</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>8f82924a870c01104b3840cf8bbb3592</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6c43a4d0878041104b3840cf8bbb3528</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>0782924a870c01104b3840cf8bbb3593</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>e043a4d0878041104b3840cf8bbb3529</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>8b82924a870c01104b3840cf8bbb3593</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>image</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6843a4d0878041104b3840cf8bbb3529</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>0382924a870c01104b3840cf8bbb3594</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>ec43a4d0878041104b3840cf8bbb3529</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>9782924a870c01104b3840cf8bbb3594</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>education</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6443a4d0878041104b3840cf8bbb352a</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>1f82924a870c01104b3840cf8bbb3594</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>languages</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>e843a4d0878041104b3840cf8bbb352a</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>9382924a870c01104b3840cf8bbb3595</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type_of_appointement</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-21 16:55:36</sys_created_on>
-            <sys_id>6043a4d0878041104b3840cf8bbb352b</sys_id>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>1b82924a870c01104b3840cf8bbb3595</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-21 16:55:36</sys_updated_on>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>years_of_experience</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-27 11:31:12</sys_created_on>
+            <sys_id>9f82924a870c01104b3840cf8bbb3595</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_549153_medical_0_doctors" sys_domain="global" view="Default view">5b8997dc873330104b3840cf8bbb3540</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-27 11:31:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
